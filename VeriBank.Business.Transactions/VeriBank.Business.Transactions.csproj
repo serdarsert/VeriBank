@@ -57,6 +57,10 @@
       <Project>{fc86f508-3697-488b-9377-9c0334b0688f}</Project>
       <Name>VeriBank.Business.Transactions.Infrastructure</Name>
     </ProjectReference>
+    <ProjectReference Include="..\VeriBank.Business.Transactions.Managers\VeriBank.Business.Transactions.Managers.csproj">
+      <Project>{0a351384-c6a9-4579-85cb-1e901d7b014b}</Project>
+      <Name>VeriBank.Business.Transactions.Managers</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

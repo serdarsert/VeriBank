@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeriBank.Business.Transacti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeriBank.Business.Transactions.Infrastructure", "VeriBank.Business.Transactions.Infrastructure\VeriBank.Business.Transactions.Infrastructure.csproj", "{FC86F508-3697-488B-9377-9C0334B0688F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeriBank.Business.Transactions.Managers", "VeriBank.Business.Transactions.Managers\VeriBank.Business.Transactions.Managers.csproj", "{0A351384-C6A9-4579-85CB-1E901D7B014B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{FC86F508-3697-488B-9377-9C0334B0688F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC86F508-3697-488B-9377-9C0334B0688F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC86F508-3697-488B-9377-9C0334B0688F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A351384-C6A9-4579-85CB-1E901D7B014B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A351384-C6A9-4579-85CB-1E901D7B014B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A351384-C6A9-4579-85CB-1E901D7B014B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A351384-C6A9-4579-85CB-1E901D7B014B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -49,8 +49,10 @@
   <ItemGroup>
     <Compile Include="BaseClasses\MoneyTransfer\MoneyTransferRequestBase.cs" />
     <Compile Include="BaseClasses\MoneyTransfer\MoneyTransferResponseBase.cs" />
+    <Compile Include="BaseClasses\TransactionBase.cs" />
     <Compile Include="BaseClasses\TransactionRequestBase.cs" />
     <Compile Include="Interfaces\ITransaction.cs" />
+    <Compile Include="Interfaces\ITransactionManager.cs" />
     <Compile Include="Interfaces\ITransactionRequest.cs" />
     <Compile Include="Interfaces\ITransactionResponse.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

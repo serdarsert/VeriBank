@@ -109,6 +109,10 @@
       <Project>{fc86f508-3697-488b-9377-9c0334b0688f}</Project>
       <Name>VeriBank.Business.Transactions.Infrastructure</Name>
     </ProjectReference>
+    <ProjectReference Include="..\VeriBank.Business.Transactions.Managers\VeriBank.Business.Transactions.Managers.csproj">
+      <Project>{0a351384-c6a9-4579-85cb-1e901d7b014b}</Project>
+      <Name>VeriBank.Business.Transactions.Managers</Name>
+    </ProjectReference>
     <ProjectReference Include="..\VeriBank.Business.Transactions\VeriBank.Business.Transactions.csproj">
       <Project>{ac4272a0-34bd-402b-9303-7c4e8189dde6}</Project>
       <Name>VeriBank.Business.Transactions</Name>
