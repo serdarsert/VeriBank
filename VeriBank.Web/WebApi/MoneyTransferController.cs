@@ -18,7 +18,7 @@ namespace VeriBank.Web.WebApi
             if (response.Result.IsSuccess)
                 return Ok(request);
             else
-                return NotFound();
+                return NotFound(); // Can return result status.
         }
     }
 }
