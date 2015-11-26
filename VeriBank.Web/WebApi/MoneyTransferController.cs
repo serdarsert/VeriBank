@@ -8,17 +8,25 @@ using VeriBank.Business.Transactions.MoneyTransfer;
 
 namespace VeriBank.Web.WebApi
 {
+    [RoutePrefix("api/MoneyTransfer")]
     public class MoneyTransferController : ApiController
     {
-        public IHttpActionResult Post([FromBody]MoneyTransferRequest request)
+        [HttpPost]
+        public IHttpActionResult Post(MoneyTransferRequest request)
         {
             MoneyTransferTransaction transaction = new MoneyTransferTransaction();
             MoneyTransferResponse response = new MoneyTransferResponse();
             transaction.Execute(request, response);
             if (response.Result.IsSuccess)
-                return Ok(request);
+                return Ok(response);
             else
                 return NotFound(); // Can return result status.
+        }
+
+        [HttpGet]
+        public MoneyTransferRequest Get()
+        {
+            return new MoneyTransferRequest();
         }
     }
 }

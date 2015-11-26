@@ -45,6 +45,9 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+    <Reference Include="TypeLite">
+      <HintPath>..\packages\TypeLite.1.5.1\lib\net4\TypeLite.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseClasses\MoneyTransfer\MoneyTransferRequestBase.cs" />
