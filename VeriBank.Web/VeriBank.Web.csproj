@@ -127,6 +127,7 @@
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\CommonMessages.ts" />
     <TypeScriptCompile Include="Scripts\Tests.ts" />
+    <TypeScriptCompile Include="Scripts\Transactions\Interfaces.ts" />
     <TypeScriptCompile Include="Scripts\Transactions\MoneyTransferTransaction.ts" />
     <TypeScriptCompile Include="Scripts\VeriBank.Transactions.ts" />
     <TypeScriptCompile Include="Scripts\VeriBank.TransactionManagement.ts" />
