@@ -1,5 +1,4 @@
-﻿//import animals = require("animals")
-
+//import animals = require("animals")
 //export namespace VeriBank.Business.Transactions.MoneyTransfer {
 //    interface MoneyTransferRequest extends IMoneyTransferRequest {
 //    }
@@ -14,7 +13,6 @@
 //        Result: string;
 //    }
 //}
-
 /*
 declare module VeriBank.Business.Transactions.Infrastructure.BaseClasses.MoneyTransfer {
     
@@ -37,4 +35,5 @@ declare module VeriBank.Business.Transactions.Infrastructure {
 }
 
 
-*/
+*/ 
+//# sourceMappingURL=VeriBank.Transactions.js.map

@@ -32,5 +32,10 @@ class TestApp {
         transaction.Start(request, response);
         console.log("MoneyTransfer transaction started.");
         console.log(response);
+
+        var accountList = new collections.Dictionary<string, cm.Account>();
+        accountList.setValue("Hesap 1", sourceAccount);
+        accountList.setValue("Hesap 2", destinationAccount);
+        console.log(accountList);
     }
 }
